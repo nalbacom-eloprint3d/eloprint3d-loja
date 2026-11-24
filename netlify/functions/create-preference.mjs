@@ -39,7 +39,6 @@ export async function handler(event) {
 
     let unitPrice = product.p;
     let variantTitle = "";
-
     if (Array.isArray(product.v)) {
       const vi = Number(entry.variantIndex);
       if (!Number.isInteger(vi) || vi < 0 || vi >= product.v.length) {
@@ -98,16 +97,16 @@ export async function handler(event) {
       body: JSON.stringify(payload),
     });
     const result = await mpResponse.json();
+
     if (!mpResponse.ok) {
       console.error("Mercado Pago preference error:", mpResponse.status, result);
       return reply(502, { error: "O Mercado Pago não conseguiu criar o checkout. Confira as credenciais e tente novamente." });
     }
 
-    const checkoutUrl = process.env.MP_ENV === "test"
-      ? (result.sandbox_init_point || result.init_point)
-      : result.init_point;
-
+    // Corrigido: sempre usa o link normal (init_point). O link "sandbox" está dando erro.
+    const checkoutUrl = result.init_point;
     if (!checkoutUrl) return reply(502, { error: "O Mercado Pago não retornou o link de pagamento." });
+
     return reply(200, { checkoutUrl, preferenceId: result.id, total: Number(total.toFixed(2)) });
   } catch (error) {
     console.error("Checkout error:", error);
