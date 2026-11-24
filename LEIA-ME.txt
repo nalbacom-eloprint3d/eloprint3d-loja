@@ -40,3 +40,4 @@ Como o catálogo é compartilhado, a loja e o servidor usam os mesmos preços. D
 - Produtos "sob consulta" continuam direcionando para o WhatsApp, porque precisam de orçamento/frete.
 - O retorno para `?pagamento=sucesso` não é, sozinho, prova de pagamento aprovado. Confirme o status no painel do Mercado Pago antes de produzir/enviar.
 - Esta primeira versão não inclui painel administrativo visual nem webhook de conciliação automática; as atualizações de catálogo são feitas editando `products.json` e republicando.
+
