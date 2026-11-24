@@ -1,0 +1,338 @@
+[
+  {
+    "id": 1,
+    "n": "Presépio 16 cm",
+    "p": 79.9,
+    "c": "Natal",
+    "i": [
+      "pres"
+    ],
+    "e": "⛪",
+    "pers": "",
+    "cores": [],
+    "d": "Presépio em impressão 3D com acabamento perolado."
+  },
+  {
+    "id": 2,
+    "n": "Kit 3 Anjos Decorativos + Vela",
+    "p": 129.9,
+    "c": "Natal",
+    "i": [
+      "anj"
+    ],
+    "e": "👼",
+    "pers": "",
+    "cores": [],
+    "d": "Trio de anjos vazados que iluminam o ambiente, com vela de chá."
+  },
+  {
+    "id": 3,
+    "n": "Nossa Senhora 15 cm + Vela",
+    "p": 45.0,
+    "c": "Religioso",
+    "i": [
+      "ns1",
+      "ns2"
+    ],
+    "e": "🕯️",
+    "pers": "",
+    "cores": [],
+    "d": "Bandeja com Nossa Senhora de 15 cm e vela de chá."
+  },
+  {
+    "id": 4,
+    "n": "Kit Jardim Personalizado (4 peças)",
+    "p": 175.0,
+    "c": "Decoração",
+    "i": [
+      "am1",
+      "am2",
+      "hel"
+    ],
+    "e": "🌸",
+    "pers": "Letra e nome",
+    "cores": [
+      "Rosa",
+      "Lilás"
+    ],
+    "d": "Letreiro personalizado, bandeja e 2 potes cupcake."
+  },
+  {
+    "id": 5,
+    "n": "Kit Bandeja e Potes Jardim (3 peças)",
+    "p": 79.9,
+    "c": "Decoração",
+    "i": [
+      "cup1",
+      "cup2",
+      "ros"
+    ],
+    "e": "🧁",
+    "pers": "",
+    "cores": [
+      "Rosa"
+    ],
+    "d": "Bandeja com 2 potes em formato de cupcake e rosa em relevo."
+  },
+  {
+    "id": 6,
+    "n": "Letreiro Ore e Confie",
+    "p": 40.0,
+    "c": "Religioso",
+    "i": [
+      "ore"
+    ],
+    "e": "✝️",
+    "pers": "",
+    "cores": [
+      "Branco/preto",
+      "Verde/bege",
+      "Vermelho/branco",
+      "Bege/branco"
+    ],
+    "d": "Letreiro de mesa em duas cores."
+  },
+  {
+    "id": 7,
+    "n": "Porta-retrato Ondas Personalizado",
+    "p": 49.9,
+    "c": "Decoração",
+    "i": [
+      "ond"
+    ],
+    "e": "🖼️",
+    "pers": "Nome",
+    "cores": [
+      "Rosa",
+      "Lilás",
+      "Amarelo manteiga",
+      "Branco"
+    ],
+    "d": "Moldura ondulada com laço, borboleta e nome."
+  },
+  {
+    "id": 8,
+    "n": "Kit Bebê Safári",
+    "p": 210.0,
+    "c": "Quarto & Infantil",
+    "i": [
+      "saf1",
+      "saf2",
+      "saf3",
+      "saf4"
+    ],
+    "e": "🦁",
+    "pers": "Nome e meses",
+    "cores": [],
+    "d": "Plaquinha, bandeja, 3 potes e letreiro personalizado."
+  },
+  {
+    "id": 9,
+    "n": "Kit Higiene Infantil Abelhinha (4 peças)",
+    "p": 89.9,
+    "c": "Quarto & Infantil",
+    "i": [
+      "abe"
+    ],
+    "e": "🐝",
+    "pers": "Nome ou tema",
+    "cores": [],
+    "d": "Kit com 4 peças, com tema abelhinha."
+  },
+  {
+    "id": 10,
+    "n": "Kit Borboletas (4 peças)",
+    "p": 89.9,
+    "c": "Quarto & Infantil",
+    "i": [
+      "bor1",
+      "bor2"
+    ],
+    "e": "🦋",
+    "pers": "Nome ou tema",
+    "cores": [
+      "Rosa",
+      "Lilás"
+    ],
+    "d": "Delicadeza em cada detalhe, kit com 4 peças."
+  },
+  {
+    "id": 11,
+    "n": "Chaveiro Borboleta Personalizado",
+    "p": null,
+    "v": [
+      [
+        "30 unidades",
+        200.0
+      ],
+      [
+        "50 unidades",
+        320.0
+      ],
+      [
+        "100 unidades",
+        645.0
+      ]
+    ],
+    "c": "Lembranças",
+    "i": [
+      "ch1",
+      "ch2",
+      "ch3"
+    ],
+    "e": "🦋",
+    "pers": "Nome ou logo (opcional)",
+    "cores": [
+      "Rosa",
+      "Azul",
+      "Vermelho",
+      "Verde",
+      "Amarelo",
+      "Branco"
+    ],
+    "d": "Ótimo para lembrancinhas, vendido em kits."
+  },
+  {
+    "id": 12,
+    "n": "Ímã com Foto",
+    "p": null,
+    "v": [
+      [
+        "1 foto",
+        20.0
+      ],
+      [
+        "4 fotos",
+        75.0
+      ],
+      [
+        "5 fotos",
+        95.0
+      ],
+      [
+        "6 fotos",
+        115.0
+      ],
+      [
+        "8 fotos",
+        155.0
+      ],
+      [
+        "10 fotos",
+        195.0
+      ]
+    ],
+    "c": "Lembranças",
+    "i": [
+      "ima",
+      "bts2"
+    ],
+    "e": "📷",
+    "pers": "Combinamos as fotos no WhatsApp",
+    "cores": [],
+    "d": "Suas memórias à vista, com acabamento brilhante."
+  },
+  {
+    "id": 13,
+    "n": "Chaveiro Personalizado + Foto",
+    "p": 25.0,
+    "c": "Lembranças",
+    "i": [
+      "chv"
+    ],
+    "e": "🔑",
+    "pers": "Nome",
+    "cores": [],
+    "d": "Chaveiro natalino com a sua foto e pingente."
+  },
+  {
+    "id": 14,
+    "n": "Ore e Confie com Jesus e Bandeja",
+    "p": 89.0,
+    "c": "Religioso",
+    "i": [
+      "oj1",
+      "oj2"
+    ],
+    "e": "✝️",
+    "pers": "",
+    "cores": [],
+    "d": "Letreiro com Jesus sentado e bandeja ondulada."
+  },
+  {
+    "id": 15,
+    "n": "Cubo Presente com Fotos",
+    "p": null,
+    "v": [
+      [
+        "4 fotos",
+        80.0
+      ],
+      [
+        "8 fotos",
+        120.0
+      ]
+    ],
+    "c": "Natal",
+    "i": [
+      "cubo"
+    ],
+    "e": "🎁",
+    "pers": "Combinamos as fotos no WhatsApp",
+    "cores": [],
+    "d": "Caixa de presente com laço e fotos nas laterais."
+  },
+  {
+    "id": 16,
+    "n": "Letra com Nome Personalizado 19 cm",
+    "p": 80.0,
+    "c": "Quarto & Infantil",
+    "i": [
+      "letm"
+    ],
+    "e": "🦋",
+    "pers": "Letra e nome",
+    "cores": [
+      "Rosa"
+    ],
+    "d": "Letra decorativa com nome em relevo e borboleta."
+  },
+  {
+    "id": 17,
+    "n": "Laços de Natal 3D (kits)",
+    "p": null,
+    "v": [
+      [
+        "3 laços",
+        14.9
+      ],
+      [
+        "6 laços",
+        22.9
+      ],
+      [
+        "12 laços",
+        32.9
+      ],
+      [
+        "24 laços",
+        43.9
+      ]
+    ],
+    "c": "Natal",
+    "i": [
+      "lk1",
+      "lc1",
+      "lc2",
+      "lk2"
+    ],
+    "e": "🎀",
+    "pers": "",
+    "cores": [
+      "Vermelho",
+      "Dourado",
+      "Verde"
+    ],
+    "d": "Laço articulado de 6,5 × 5 cm para pendurar na árvore. Escolha o tamanho do kit."
+  }
+]

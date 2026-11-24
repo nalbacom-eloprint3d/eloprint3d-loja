@@ -1,0 +1,42 @@
+# EloPrint3D — pacote para Netlify + Mercado Pago Checkout Pro
+
+Este pacote preserva o visual e os produtos do HTML enviado e adiciona:
+- catálogo em `products.json`, usado tanto pela loja quanto pela função de pagamento;
+- criação do checkout no servidor Netlify, sem expor o Access Token no navegador;
+- validação dos produtos, quantidades e preços no servidor;
+- retorno do Mercado Pago para a loja.
+
+## Arquivos
+- `index.html`: loja.
+- `products.json`: catálogo editável (nomes, descrições, preços, opções e imagens).
+- `netlify/functions/create-preference.mjs`: função segura que cria a preferência no Mercado Pago.
+- `netlify.toml`: configuração de publicação.
+
+## Antes de publicar
+1. Faça upload da pasta inteira (ou do ZIP extraído) para um novo site Netlify.
+2. No painel do site: Site configuration → Environment variables.
+3. Crie `MP_ACCESS_TOKEN` com o Access Token de TESTE da aplicação Mercado Pago.
+4. Crie `MP_ENV` com o valor `test`.
+5. Faça novo deploy para aplicar as variáveis.
+
+**Nunca coloque o Access Token no HTML, no products.json, no Git ou em mensagens.**
+
+## Testes
+O Checkout Pro clássico usa a API de Preferências (`/checkout/preferences`). O link de teste é escolhido via `sandbox_init_point` quando disponível. Use uma conta compradora de teste e os dados de teste publicados pelo Mercado Pago. Não use cartão ou conta real para simular.
+
+## Quando for vender de verdade
+Depois de concluir os testes, troque `MP_ACCESS_TOKEN` pelo Access Token de produção e `MP_ENV` para `production`, salve e faça novo deploy. Nunca envie o token por chat.
+
+## Alterar produtos, fotos e preços
+Edite `products.json`:
+- `p`: preço fixo em reais;
+- `v`: lista de opções, cada uma com `[nome da opção, preço]`;
+- `p: null` sem `v`: produto sob consulta, pago pelo WhatsApp;
+- `i`: chaves das imagens já incorporadas no HTML (não altere sem também ajustar o mapa de imagens no HTML).
+
+Como o catálogo é compartilhado, a loja e o servidor usam os mesmos preços. Depois de editar, publique novamente o site na Netlify.
+
+## Observações importantes
+- Produtos "sob consulta" continuam direcionando para o WhatsApp, porque precisam de orçamento/frete.
+- O retorno para `?pagamento=sucesso` não é, sozinho, prova de pagamento aprovado. Confirme o status no painel do Mercado Pago antes de produzir/enviar.
+- Esta primeira versão não inclui painel administrativo visual nem webhook de conciliação automática; as atualizações de catálogo são feitas editando `products.json` e republicando.
